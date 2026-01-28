@@ -1,0 +1,173 @@
+[
+    {
+        "texto_pergunta": "Você quer proteger suas contas de jogos e redes sociais. Qual a melhor forma de criar sua senha?",
+        "alternativas": [
+            {
+                "texto_alternativa": "Usar '123456' porque é rápido e fácil",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "Usar a mesma senha para tudo",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "Criar uma senha com letras, números e símbolos, e não reutilizá-la",
+                "correta": true
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Verdadeiro ou falso: É seguro usar a mesma senha em vários sites.",
+        "alternativas": [
+            {
+                "texto_alternativa": "Verdadeiro",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "Falso",
+                "correta": true
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Escolha o melhor hábito com senhas e diga por que ele ajuda a proteger sua conta.",
+        "alternativas": [
+            {
+                "texto_alternativa": "Mudar a senha regularmente",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "Anotar a senha em um post-it",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "Compartilhar a senha só com amigos próximos",
+                "correta": false
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Você recebe um e-mail pedindo sua senha com um link suspeito. O que você faz?",
+        "alternativas": [
+            {
+                "texto_alternativa": "Responder com minha senha",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "Ignorar e denunciar o e-mail",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "Clicar no link para ver o que diz",
+                "correta": false
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Você tem 20 segundos! Qual dessas senhas você escolheria como a mais forte?",
+        "alternativas": [
+            {
+                "texto_alternativa": "senha123",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "L$8x9#Bq!m",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "meunome2025",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "qwerty",
+                "correta": false
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Qual a melhor forma de lembrar senhas complicadas?",
+        "alternativas": [
+            {
+                "texto_alternativa": "Usar um gerenciador de senhas",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "Anotá-las no papel",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "Usar senhas simples",
+                "correta": false
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Você está familiarizado com ameaças comuns à cibersegurança, como malware, ransomware e engenharia social?",
+        "alternativas": [
+            {
+                "texto_alternativa": "Sim",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "Não",
+                "correta": false
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Você participa de atividades ou questionários de conscientização sobre segurança para se manter informado?",
+        "alternativas": [
+            {
+                "texto_alternativa": "Sim",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "Não",
+                "correta": false
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Você revisa e ajusta as configurações de privacidade e segurança nas suas contas de redes sociais?",
+        "alternativas": [
+            {
+                "texto_alternativa": "Sim",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "Não",
+                "correta": false
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Você sabe quem pode ver suas postagens e informações pessoais online?",
+        "alternativas": [
+            {
+                "texto_alternativa": "Sim",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "Não",
+                "correta": false
+            }
+        ]
+    },
+    {
+        "texto_pergunta": "Sou algo que você deve manter em segredo. Feito de letras, números e, talvez, símbolos também. Sou a chave para sua conta — você precisa de mim para entrar. O que sou eu?",
+        "alternativas": [
+            {
+                "texto_alternativa": "Nome de usuário",
+                "correta": false
+            },
+            {
+                "texto_alternativa": "Senha",
+                "correta": true
+            },
+            {
+                "texto_alternativa": "Email",
+                "correta": false
+            }
+        ]
+    }
+]
