@@ -10,3 +10,4 @@ python app.py &
 cd ../frontend
 npx expo start
 
+""
