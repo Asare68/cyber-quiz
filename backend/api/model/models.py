@@ -12,6 +12,7 @@ questionario_questao = Table(
     Column('questao_id', Integer, ForeignKey('questao.id', ondelete="CASCADE"), primary_key=True)
 )
 
+#This table stores the password in a very insecure way, we will change it later to use hashing and salting
 class Usuario(Base):
     __tablename__ = 'usuario'
 

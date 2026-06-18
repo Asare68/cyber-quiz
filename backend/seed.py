@@ -6,7 +6,7 @@ import json
 import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from api.model.models import Questao, Resposta, Tema
+from api.model.models import Questao, Resposta, Tema, Usuario
 
 # 1. Configuração do Banco de Dados (Mesma do app.py)
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -58,7 +58,15 @@ def popular_banco():
                 
                 questoes_adicionadas += 1
 
-        # 5. Efetiva todas as mudanças no banco de dados
+        #5. insere um usuário e senha
+        novo_usuario = Usuario(
+            nome="Sampson",
+            email="sampson@gmail.com",
+            senha="123456"
+        )
+        session.add(novo_usuario)
+        
+        # 6. Efetiva todas as mudanças no banco de dados
         session.commit()
         print(f"Sucesso! {questoes_adicionadas} novas questões foram inseridas no banco de dados.")
 
